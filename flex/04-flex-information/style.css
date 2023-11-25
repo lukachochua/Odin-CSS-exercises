@@ -7,10 +7,28 @@ img {
   height: 100px;
 }
 
+
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+  flex-direction: column;
+  width: 200pxs;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
